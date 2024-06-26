@@ -818,13 +818,13 @@ alloc(armorData,20)
 registerSymbol(armorData)
 
 armorData+0:
-  //readMem([[GameDataMan]+8]+3C8,4)
+  readMem([[GameDataMan]+8]+3C8,4)
 armorData+4:
-  //readMem([[GameDataMan]+8]+3CC,4)
+  readMem([[GameDataMan]+8]+3CC,4)
 armorData+8:
-  //readMem([[GameDataMan]+8]+3D0,4)
+  readMem([[GameDataMan]+8]+3D0,4)
 armorData+12:
-  //readMem([[GameDataMan]+8]+3D4,4)
+  readMem([[GameDataMan]+8]+3D4,4)
 
 {$lua}
 if syntaxcheck then return end
@@ -903,7 +903,7 @@ for i,item in ipairs(armor) do
    armor_Edit:patch2Byte(0x102,armor_Param[4])
    armor_Edit:patch2Byte(0x108,armor_Param[5])
    armor_Edit:patch2Byte(0x10A,armor_Param[6])
-   if readByte("armorData+17") ~= 0 then
+   if readByte("armorData+17") ~= 0 and i == 1 then
       armor_Edit:patch2Byte(0xA4,0)
       for i = 0,97,1 do
          local offset = 0x132 + (i*0x01)
