@@ -8,7 +8,6 @@ Further customization is currently just the option to make the helmet invisible.
 - Requires GameDataMan symbol
 - Requires Param Patcher 
 - Requires disableMemrec(memrec, delay)
-- (These are all in the TGA table.)
 - [Elden-Ring-CT-TGA, maintained by The Grand Archives.](https://github.com/The-Grand-Archives/Elden-Ring-CT-TGA/releases/tag/v1.10.1)
 
 
