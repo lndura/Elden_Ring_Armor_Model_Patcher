@@ -12,5 +12,4 @@ Further customization is currently just the option to make the helmet invisible.
 
 
 #### You can reach me on these platforms:
-[Twitch](https://www.twitch.tv/indurabeast)
-[Discord](https://discordapp.com/users/329992368084484097)
+[Twitch](https://www.twitch.tv/indurabeast) | [Discord](https://discordapp.com/users/329992368084484097)
